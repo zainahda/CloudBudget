@@ -65,7 +65,7 @@ export default {
   }
 
   svg {
-    color:black;
+    color:#FFFFFF;
     margin-right: 10px;
   }
 

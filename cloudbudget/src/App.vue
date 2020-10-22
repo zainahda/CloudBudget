@@ -2,6 +2,8 @@
   <div id="app">
     <NavBar/>
     <Jumbotron/>
+    <CloudInfo/>
+    <Features/>
   </div>
 </template>
 
@@ -9,14 +11,16 @@
 
 import NavBar from './components/NavBar.vue'
 import Jumbotron from './components/Jumbotron.vue'
-
-
+import CloudInfo from './components/CloudInfo.vue'
+import Features from './components/Features.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
     Jumbotron,
+    CloudInfo,
+    Features,
   }
 }
 </script>
@@ -30,4 +34,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
