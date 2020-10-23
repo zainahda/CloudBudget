@@ -1,9 +1,9 @@
 <template>
     <!-- info -->
       <div class="container">
-      <div class="row overview">
+      <div class="row row-cols-1 row-cols-lg-2 overview">
 
-        <div class="col overview-info">
+        <div class="overview-info">
           <h4> Easy to Use Cloud Budget<br> Management Software</h4>
           <p>Our software is made so you can access and manage your budget and expenses online at any time from any device. It provides detailed income and expense reports with graphs so you can easilly see your spending patterns and budget at a glance. Read below to find out more.</p>
           <a href="" class="btn">Learn More</a>
@@ -40,13 +40,14 @@ export default {
 .overview-info p{
   width: 445px;
   margin-top: 24px;
+  margin-left: 50px;
   font-size: 14px;
   font-weight: 400;
   text-align:justify;
 }
 
 .overview-info a{
-  margin-left: -100px;
+  margin-left: -40px;
   font-size: 14px;
   font-weight: 400;
   color: #ED4C5C;
@@ -65,7 +66,7 @@ button {
   width: 66px;
   height: 66px;
   margin-top: 650px; 
-  margin-left: 250px;
+  margin-left: 275px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #ED4C5C;
@@ -107,7 +108,7 @@ button svg {
 }
 
 .overview-info a{
-  margin-left: -465px;
+  margin-left: -490px;
 }
 
 button {
@@ -115,8 +116,24 @@ button {
   margin-top: 241px; 
   margin-left: 630px;
 }
+.overview-info p{
+  margin-left: 5px;
+}
 }
 
-
+/* tablet version */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  button {
+  position: absolute;
+  margin-left: 360px;
+}
+.overview-info p{
+  margin-left: 135px;
+}
+.overview-info a{
+  margin-left: -30px;
+  
+}
+ }
 
 </style>

@@ -46,6 +46,11 @@ export default {
 </script>
 
 <style scoped>
+
+.container {
+  background-color: #FAFAFA;
+}
+
 h1 {
     margin-left: -300px;
     margin-top: 63px;
@@ -97,7 +102,6 @@ h1 {
 .btn {
   width: 253px;
   height: 18px;
-  font-family: Lato;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -118,4 +122,13 @@ h1 {
   }
 }
 
+/* tablet version */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    margin-left: -200px;
+}
+.card-body {
+  margin-left: 20px;
+}
+}
 </style>

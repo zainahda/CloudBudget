@@ -4,6 +4,7 @@
     <Jumbotron/>
     <CloudInfo/>
     <Features/>
+    <Technology/>
   </div>
 </template>
 
@@ -13,6 +14,8 @@ import NavBar from './components/NavBar.vue'
 import Jumbotron from './components/Jumbotron.vue'
 import CloudInfo from './components/CloudInfo.vue'
 import Features from './components/Features.vue'
+import Technology from './components/Technology.vue'
+
 
 export default {
   name: 'App',
@@ -21,6 +24,7 @@ export default {
     Jumbotron,
     CloudInfo,
     Features,
+    Technology,
   }
 }
 </script>
